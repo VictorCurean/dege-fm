@@ -1,0 +1,3 @@
+accelerate launch ./eval_single_anndata.py --adata_path ./data/replogle_k562_all_perturbations.h5ad --dir ./output_k562/ --species human --model_loc ./torch_files/33l_8ep_1024t_1280.torch --batch_size 16 --nlayers 33
+
+accelerate launch ./eval_single_anndata.py --adata_path ./data/replogle_rpe1_all_perturbations.h5ad --dir ./output_rpe1/ --species human --model_loc ./torch_files/33l_8ep_1024t_1280.torch --batch_size 16 --nlayers 33
