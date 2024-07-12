@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+tqdm
+torch
+scanpy
+accelerate
+requests
+urllib3==1.26.6
